@@ -110,7 +110,7 @@ function handleClick() {
         dzien++;
         body.style.animation = "backgroundpurple 10s infinite ease-in-out";
     }
-    number.textContent = dzien;
+    number.textContent = "Zarwane noce: " + dzien;
     message.textContent = zyczenia[dzien - 1] || "Wesołych Świąt!";
 
     if (dzien === 7) {
