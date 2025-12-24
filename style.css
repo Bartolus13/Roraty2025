@@ -30,7 +30,7 @@ body {
 
 #title {
     font-size: 6vh;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS';
     color: #ff8d8d;
     font-weight: bold;
     text-shadow: 2px 2px 4px #000000;
@@ -80,7 +80,7 @@ body {
 }
 
 #swiece {
-    width: 18%;
+    width: 25vh;
     position: fixed;
     bottom: 0;
     left: 50%;
@@ -127,47 +127,49 @@ body {
     font-size: 2vh;
     color: #333333;
     user-select: none;
+    padding: 0px 2vw;
 }
 
 #flame1{
     position: fixed;
-    width: 3vw;
-    bottom: 14.9vw;
-    left: 41.7%;
+    width: 4vh;
+    bottom: 20.5vh;
+    left: calc(50% - 11.5vh);
     z-index: 6;
     visibility: hidden;
 }
 #flame2{
     position: fixed;
-    width: 3vw;
-    bottom: 14.9vw;
-    left: 46.2%;
+    width: 4vh;
+    bottom: 20.5vh;
+    left: calc(50% - 5.2vh);
     z-index: 6;
     visibility: hidden;
 }
 #flame3{
     position: fixed;
-    width: 3vw;
-    bottom: 14.9vw;
-    left: 50.5%;
+    width: 4vh;
+    bottom: 20.5vh;
+    left: calc(50% + 0.8vh);
     z-index: 6;
     visibility: hidden;
 }
 #flame4{
     position: fixed;
-    width: 3vw;
-    bottom: 14.9vw;
-    left: 54.6%;
+    width: 4vh;
+    bottom: 20.5vh;
+    left: calc(50% + 6.2vh);
     z-index: 6;
     visibility: hidden;
 }
 
 footer {
     position: fixed;
-    bottom: 10px;
-    right: 2%;
+    bottom: 4px;
+    width: 100%;
+    left: 0;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.3vh;
     color: #ffffff;
     user-select: none;
 }
